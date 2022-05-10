@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully Launched Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+    <line>
+      <![CDATA[Home Page is displayed successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18949" started-at="2022-05-10T20:16:54 IST" finished-at="2022-05-10T20:17:13 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18949" started-at="2022-05-10T20:16:54 IST" finished-at="2022-05-10T20:17:13 IST">
+      <class name="shopCategory.TC_001_Test">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:shopCategory.TC_001_Test@1877ab81]" name="openTheBrowser" is-config="true" duration-ms="6639" started-at="2022-05-10T20:16:54 IST" finished-at="2022-05-10T20:17:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Launched Chrome Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="navigateToApplication()[pri:0, instance:shopCategory.TC_001_Test@1877ab81]" name="navigateToApplication" is-config="true" duration-ms="3540" started-at="2022-05-10T20:17:00 IST" finished-at="2022-05-10T20:17:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToApplication -->
+        <test-method status="PASS" signature="shopCategory()[pri:0, instance:shopCategory.TC_001_Test@1877ab81]" name="shopCategory" duration-ms="7580" started-at="2022-05-10T20:17:04 IST" finished-at="2022-05-10T20:17:12 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page is displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- shopCategory -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:shopCategory.TC_001_Test@1877ab81]" name="closeTheBrowser" is-config="true" duration-ms="1148" started-at="2022-05-10T20:17:12 IST" finished-at="2022-05-10T20:17:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- shopCategory.TC_001_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
